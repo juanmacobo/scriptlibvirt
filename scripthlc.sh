@@ -47,7 +47,7 @@ while [ $bucle1 != "parar" ]; do
 
 		echo " "
 		echo "Montando disco adicional en mv2..."
-		ssh -i /home/juanma/.ssh/id_rsa.pub juanma@$ipmv2 sudo	mount /dev/vdb /var/www/practicahlc
+		ssh -i /home/juanma/.ssh/id_rsa.pub juanma@$ipmv2 sudo	mount /dev/vdb /var/www/html
 
 		echo " "
 		echo "mv2 disponible"
